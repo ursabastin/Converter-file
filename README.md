@@ -7,7 +7,12 @@
 [![GUI](https://img.shields.io/badge/GUI-PyQt6%20Native-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://www.riverbankcomputing.com/software/pyqt/)
 [![Multimedia Engine](https://img.shields.io/badge/Multimedia-FFmpeg%20v7.1-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
 [![Architecture](https://img.shields.io/badge/Hardware%20Safety-Zero--Stress%20Engine-6366F1?style=for-the-badge&logo=shield&logoColor=white)](#-the-zero-stress-philosophy)
+[![Created By](https://img.shields.io/badge/Created%20By-Gemini%203.8%20Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](#-credits--acknowledgments)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+
+<br/>
+
+> **Note**: Everything is created by **Gemini 3.8 Flash**. I just had an idea of what to do.
 
 <br/>
 
@@ -284,6 +289,14 @@ Contributions make the open-source community an incredible place to learn, inspi
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+---
+
+## 🤖 Credits & Acknowledgments
+
+> **"Everything is created by Gemini 3.8 Flash. I just had an idea of what to do."**
+
+All architectural decisions, engine implementations (FFmpeg, Pillow, Qt vector PDF, Pandas data pipeline, archive recompression, low-stress process priority suspension, and dynamic EMA ETA), along with the modern dark glassmorphic PyQt6 user interface, automated test suite, and terminal wrappers, were generated end-to-end by **Google DeepMind's Gemini 3.8 Flash**.
 
 ---
 
