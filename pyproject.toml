@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omniconvert"
+version = "1.0.0"
+description = "Universal High-Fidelity File Converter with zero-stress hardware safety, real-time ETA telemetry, and modern dark glassmorphism GUI."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "ursabastin" }
+]
+requires-python = ">=3.10"
+keywords = [
+    "file-converter",
+    "converter",
+    "gui",
+    "pyqt6",
+    "ffmpeg",
+    "audio-converter",
+    "video-converter",
+    "image-converter",
+    "document-converter",
+    "lossless"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers",
+    "Topic :: Multimedia :: Video :: Conversion",
+    "Topic :: Multimedia :: Sound/Audio :: Conversion",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS"
+]
+dependencies = [
+    "PyQt6>=6.8.0",
+    "Pillow>=11.0.0",
+    "imageio-ffmpeg>=0.5.1",
+    "psutil>=6.1.0",
+    "pandas>=2.2.0",
+    "openpyxl>=3.1.0",
+    "pypdf>=5.0.0",
+    "python-docx>=1.1.0"
+]
+
+[project.scripts]
+converter = "main:main"
+anyotherterminal = "main:main"
+file-converter = "main:main"
+
+[project.gui-scripts]
+omniconvert-gui = "main:main"
+
+[project.urls]
+Homepage = "https://github.com/ursabastin/omniconvert"
+Repository = "https://github.com/ursabastin/omniconvert"
+Issues = "https://github.com/ursabastin/omniconvert/issues"
